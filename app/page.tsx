@@ -1,12 +1,12 @@
-import Home from "@/app/home/page"
-
-
 import React from 'react'
+import Home from '@/app/home/page'
 
 const page = () => {
   return (
     <>
+   
       <Home />
+     
     </>
   )
 }
