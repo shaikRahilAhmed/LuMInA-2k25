@@ -26,7 +26,7 @@ const Footer = () => {
             
             <div className="space-y-1">
               <p className="text-gray-400 text-sm uppercase tracking-wider font-light">
-                January 23-24 • SCB Block, St. Martin&apos;s
+                October 24-25 • SCB Block, St. Martin&apos;s
               </p>
               <p className="text-xs text-gray-500">
                 © 2025 LuMInA, All Rights Reserved.
