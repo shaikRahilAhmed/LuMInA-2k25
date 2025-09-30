@@ -26,7 +26,7 @@ const Footer = () => {
             
             <div className="space-y-1">
               <p className="text-gray-400 text-sm uppercase tracking-wider font-light">
-                January 23-24 • SCB Block, St. Martin's
+                January 23-24 • SCB Block, St. Martin&apos;s
               </p>
               <p className="text-xs text-gray-500">
                 © 2025 LuMInA, All Rights Reserved.
@@ -119,9 +119,6 @@ const Footer = () => {
                   <Github className="w-5 h-5 text-gray-400 group-hover:text-white transition-colors duration-300" />
                 </div>
               </a>
-
-             
-                
             </div>
           </div>
         </div>
