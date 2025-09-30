@@ -39,28 +39,24 @@ const Footer = () => {
             <div className="flex flex-wrap justify-center gap-6 md:gap-8">
               <Link 
                 href="/" 
-                className="text-gray-300 hover:text-cyan-400 transition-colors duration-300 text-sm font-medium uppercase tracking-wider"
+                className="relative group px-8 py-3 rounded-full overflow-hidden"
               >
-                Home
+                {/* Animated gradient background */}
+                <span className="absolute inset-0 bg-gradient-to-r from-cyan-500 via-blue-500 to-purple-500 transition-transform duration-500 group-hover:scale-110"></span>
+                
+                {/* Glow effect */}
+                <span className="absolute inset-0 bg-gradient-to-r from-cyan-400 via-blue-400 to-purple-400 blur-lg opacity-0 group-hover:opacity-75 transition-opacity duration-500"></span>
+                
+                {/* Text */}
+                <span className="relative z-10 flex items-center space-x-2 text-white font-bold text-sm uppercase tracking-wider">
+                  <span className="transition-transform duration-300 group-hover:-translate-y-0.5">Quick</span>
+                  <span className="transition-transform duration-300 group-hover:-translate-y-0.5 delay-75">Up</span>
+                  <svg className="w-4 h-4 transition-all duration-300 group-hover:translate-y-[-2px] group-hover:scale-110" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 10l7-7m0 0l7 7m-7-7v18" />
+                  </svg>
+                </span>
               </Link>
-              <Link 
-                href="/events" 
-                className="text-gray-300 hover:text-cyan-400 transition-colors duration-300 text-sm font-medium uppercase tracking-wider"
-              >
-                Events
-              </Link>
-              <Link 
-                href="/team" 
-                className="text-gray-300 hover:text-cyan-400 transition-colors duration-300 text-sm font-medium uppercase tracking-wider"
-              >
-                Team
-              </Link>
-              <Link 
-                href="/about" 
-                className="text-gray-300 hover:text-cyan-400 transition-colors duration-300 text-sm font-medium uppercase tracking-wider"
-              >
-                About
-              </Link>
+            
             </div>
           </div>
 
