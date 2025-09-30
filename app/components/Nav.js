@@ -18,8 +18,8 @@ const Nav = () => {
 
   const navLinks = [
     { href: '/', label: 'Home' },
-    { href: '/about', label: 'Events' },
-    { href: '/features', label: 'Team' }
+    { href: '/events', label: 'Events' },
+    { href: '/team', label: 'Team' }
   ]
 
   return (

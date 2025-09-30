@@ -5,6 +5,7 @@ import Nav from "@/app/components/Nav"
 import TechBackground from '@/app/components/TechBackground'
 import Footer from "@/app/components/Footer"
 
+
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
@@ -29,10 +30,11 @@ export default function RootLayout({
     <html lang="en">
       <body className={`${geistSans.variable} ${geistMono.variable}`}>
         <TechBackground />
+
+        <Nav />
+        {children}
         
-         <Nav />
-{children}
-         <Footer />
+        <Footer />
       </body>
     </html>
   );
