@@ -2,7 +2,7 @@
 
 import React from 'react'
 import Link from 'next/link'
-import { Instagram, Linkedin, Github } from 'lucide-react'
+import { Instagram, Linkedin, Github, Mail } from 'lucide-react'
 
 const Footer = () => {
   return (
@@ -67,15 +67,16 @@ const Footer = () => {
             </div>
             
             <div className="flex items-center space-x-3">
-              {/* Fire/Flame Icon */}
-              <div className="relative group">
+              {/* Mail Icon */}
+              <a 
+                href="mailto:contact@lumina.com" 
+                className="relative group"
+              >
                 <div className="absolute inset-0 bg-gradient-to-r from-orange-500 to-red-500 rounded-full blur-md opacity-0 group-hover:opacity-75 transition-opacity duration-300"></div>
-                <div className="relative w-10 h-10 bg-gradient-to-br from-orange-500 to-red-600 rounded-full flex items-center justify-center transform group-hover:scale-110 transition-transform duration-300 cursor-pointer">
-                  <svg className="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 24 24">
-                    <path d="M12 23C7.03 23 3 18.97 3 14c0-3.15 1.58-6.14 4.23-8.01.4-.28.95-.2 1.26.2.31.39.24.96-.16 1.27C6.06 9.14 5 11.5 5 14c0 3.86 3.14 7 7 7s7-3.14 7-7c0-1.9-.76-3.65-2.14-4.93-.39-.37-.41-.98-.04-1.37.37-.39.98-.41 1.37-.04C20.07 9.43 21 11.64 21 14c0 4.97-4.03 9-9 9zm-1-9.5v-7c0-.28.22-.5.5-.5s.5.22.5.5v7c0 .28-.22.5-.5.5s-.5-.22-.5-.5z"/>
-                  </svg>
+                <div className="relative w-10 h-10 bg-slate-800 hover:bg-slate-700 rounded-full flex items-center justify-center border border-slate-700 group-hover:border-orange-500 transform group-hover:scale-110 transition-all duration-300">
+                  <Mail className="w-5 h-5 text-gray-400 group-hover:text-orange-400 transition-colors duration-300" />
                 </div>
-              </div>
+              </a>
 
               {/* Instagram */}
               <a 
