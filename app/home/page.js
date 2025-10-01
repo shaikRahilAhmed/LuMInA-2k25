@@ -1,7 +1,5 @@
 'use client'
 
-
-
 import React, { useState, useEffect } from 'react'
 
 const Page = () => {
@@ -52,7 +50,7 @@ const Page = () => {
                 {/* Location */}
                 <div className='text-center mb-4 animate-slide-up' style={{ animationDelay: '0.1s' }}>
                     <p className='text-gray-400 text-xs md:text-sm uppercase tracking-[0.3em] font-light'>
-                        Subhas Chandrabose Block · St. Martin's
+                        Subhas Chandrabose Block · St. Martin&apos;s
                     </p>
                 </div>
 
@@ -148,7 +146,6 @@ const Page = () => {
                         </div>
                     </div>
                 </div>
-                
 
             </div>
 
