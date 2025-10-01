@@ -6,7 +6,7 @@ import { Instagram, Linkedin, Github, Mail } from 'lucide-react'
 
 const Footer = () => {
   return (
-    <footer className="mt-100 relative bg-gradient-to-b from-black to-slate-900 border-t border-cyan-500/20">
+    <footer className=" relative bg-gradient-to-b from-black to-slate-900 border-t border-cyan-500/20">
       {/* Top glow effect */}
       <div className="absolute top-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-cyan-500 to-transparent"></div>
       
