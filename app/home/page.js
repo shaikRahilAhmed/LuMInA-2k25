@@ -232,7 +232,7 @@ const Page = () => {
                         </div>
                         
                         <div className='flex-1'>
-                            <p className='text-gray-400 text-base leading-relaxed font-light m-10'>
+                            <p className='text-gray-400 text-base leading-relaxed font-light '>
                                 Dr. Ravindra Kasa, Director of St. Martin&apos;s Engineering College, is a distinguished academic with degrees from <span className='text-cyan-400 font-medium'>Andhra University</span>, <span className='text-blue-400 font-medium'>IIT Roorkee (Gold Medalist)</span> and a Ph.D. from Osmania University. With over <span className='text-purple-400 font-medium'>36 years</span> of teaching, research and administrative leadership, he has served as Senior Scientist at Osmania University, Principal & Professor at MRITS, and Dean at Malla Reddy University. A visionary leader who actively mentors and supports students in all aspects, he is dedicated to fostering academic excellence, innovation and holistic development on campus.
                             </p>
                         </div>
@@ -258,7 +258,7 @@ const Page = () => {
                         </div>
 
                         <div className='flex-1'>
-                            <p className='text-gray-400 text-base leading-relaxed font-light m-10'>
+                            <p className='text-gray-400 text-base leading-relaxed font-light '>
                                 Dr. N. Krishnaiah, Professor and Head of the <span className='text-cyan-400 font-medium'>AI & ML Department</span> at St. Martin&apos;s Engineering College, is an accomplished academic and researcher with a Ph.D. in Computer Science & Engineering from JNTUK. Specializing in <span className='text-blue-400 font-medium'>Data Mining</span>, <span className='text-purple-400 font-medium'>Machine Learning</span>, and Computer Networks, he has published numerous papers, authored books, filed patents, and secured AICTE research funding. A recipient of the <span className='text-pink-400 font-medium'>Best Faculty Award</span>, Dr. Krishnaiah actively mentors students, promotes innovation, and drives academic excellence while nurturing the department&apos;s growth in cutting-edge technologies.
                             </p>
                         </div>
