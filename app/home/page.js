@@ -53,7 +53,7 @@ const Page = () => {
           {/* Location */}
           <div className='text-center mb-4 animate-slide-up' style={{ animationDelay: '0.1s' }}>
             <p className='text-gray-400 text-xs md:text-sm uppercase tracking-[0.3em] font-light'>
-              Mahatma Gandhi Block   -   St. Martin&apos;s
+              Mahatma Gandhi Block <br /> St. Martin&apos;s
             </p>
           </div>
 
