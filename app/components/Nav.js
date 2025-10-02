@@ -17,9 +17,9 @@ const Nav = () => {
   }, [])
 
   const navLinks = [
-    { href: '/', label: 'Home' },
     { href: '/events', label: 'Events' },
-    { href: '/team', label: 'Team' }
+    { href: '/team', label: 'Team' },
+    { href: '/about', label: 'About' },
   ]
 
   return (
@@ -30,29 +30,31 @@ const Nav = () => {
         <div className='flex items-center justify-between'>
           {/* Logo Section */}
           <div className='flex items-center space-x-3 group'>
-            <div className='relative'>
-              {/* glow behind logo */}
-              <div className='absolute inset-0 bg-gradient-to-r from-red-500 to-pink-500 rounded-full blur-md opacity-0 group-hover:opacity-75 transition-opacity duration-500'></div>
-              <Image
-                src="/Logo.png"
-                width={60}
-                height={60}
-                alt="Logo"
-                className='relative z-10 transition-transform duration-500 group-hover:scale-110 group-hover:rotate-6'
-              />
-            </div>
-            <div className='hidden sm:block'>
-              {/* Text gradient */}
-              <div className='text-xl font-bold bg-gradient-to-r from-red-400 via-pink-400 to-purple-400 bg-clip-text text-transparent'>
-                AI & ML
+            <Link href="/home" className="flex items-center space-x-3">
+              <div className='relative'>
+                {/* glow behind logo */}
+                <div className='absolute inset-0 bg-gradient-to-r from-red-500 to-pink-500 rounded-full blur-md opacity-0 group-hover:opacity-75 transition-opacity duration-500'></div>
+                <Image
+                  src="/Logo.png"
+                  width={60}
+                  height={60}
+                  alt="Logo"
+                  className='relative z-10 transition-transform duration-500 group-hover:scale-110 group-hover:rotate-6'
+                />
               </div>
-              <div className='text-xs text-gray-400 font-light tracking-widest'>
-                DEPARTMENT
+              <div className='hidden sm:block'>
+                {/* Text gradient */}
+                <div className='text-xl font-bold bg-gradient-to-r from-red-400 via-pink-400 to-purple-400 bg-clip-text text-transparent'>
+                  AI & ML
+                </div>
+                <div className='text-xs text-gray-400 font-light tracking-widest'>
+                  DEPARTMENT
+                </div>
               </div>
-            </div>
+            </Link>
           </div>
 
-          {/* Navigation Links */}
+          {/* Navigation Links (no Home) */}
           <div className='flex items-center space-x-1 bg-white/5 backdrop-blur-sm rounded-full px-2 py-2 border border-white/10'>
             {navLinks.map((link) => (
               <Link 
