@@ -6,8 +6,6 @@ import HeadContent from '../head/page'
 import TeamsContent from '../teams/page'
 import VolunteersContent from '../volunteers/page'
 
-import Link from 'next/link'
-
 const Team = () => {
   const [activeTab, setActiveTab] = useState('head')
 
@@ -77,7 +75,7 @@ const Team = () => {
 
           <div className="flex-1">
             <p className="text-gray-400 text-base leading-relaxed font-light">
-              Mr. B. Ramesh, our esteemed Faculty Coordinator, is a dedicated computer science faculty with expertise in deep learning, highlighted by his paper on predicting Parkinson's disease progression. He has actively participated in national-level workshops on machine learning and data science and is currently pursuing a Ph.D. in artificial intelligence and computing at Amrita Vishwa Vidyapeetam, Amaravati. Throughout LuMInA 25, he guided our team with constant support and mentorship, ensuring smooth execution, valuable learning, and the event&apos;s successful realization.
+              Mr. B. Ramesh, our esteemed Faculty Coordinator, is a dedicated computer science faculty with expertise in deep learning, highlighted by his paper on predicting Parkinson's disease progression. He has actively participated in national-level workshops on machine learning and data science and is currently pursuing a Ph.D. in artificial intelligence and computing at Amrita Vishwa Vidyapeetam, Amaravati. Throughout LuMInA 25, he guided our team with constant support and mentorship, ensuring smooth execution, valuable learning, and the event's successful realization.
             </p>
           </div>
         </div>
