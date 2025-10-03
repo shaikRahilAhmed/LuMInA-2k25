@@ -41,7 +41,7 @@ const Page = () => {
         <div className='max-w-6xl mx-auto w-full'>
 
           {/* Date Badge */}
-          <div className='mt-25 flex justify-center mb-4 animate-fade-in'>
+          <div className='mt-30 flex justify-center mb-4 animate-fade-in'>
             <div className='inline-flex items-center space-x-2 px-4 py-2 rounded-full bg-gradient-to-r from-red-500/10 to-pink-500/10 border border-red-500/30 backdrop-blur-sm'>
               <div className='w-2 h-2 bg-red-400 rounded-full animate-pulse'></div>
               <span className='text-red-400 text-xs md:text-sm font-semibold tracking-widest uppercase'>
