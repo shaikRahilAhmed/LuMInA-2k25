@@ -4,7 +4,7 @@ import React from 'react'
 
 const AboutPage = () => {
   return (
-    <section className="relative min-h-screen  text-gray-200 flex items-center justify-center px-6 py-16">
+    <section className="mt-5 relative min-h-screen  text-gray-200 flex items-center justify-center px-6 py-16">
       <div className="max-w-4xl text-center">
         {/* Heading */}
         <h1 className="text-4xl md:text-6xl font-bold mb-6 bg-gradient-to-r from-red-500 via-pink-500 to-orange-400 bg-clip-text text-transparent">
