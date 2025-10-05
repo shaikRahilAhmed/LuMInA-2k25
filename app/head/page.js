@@ -81,6 +81,13 @@ const TeamPage = () => {
       instagram: "https://www.instagram.com/_shaik_rahil7_/?hl=en",
       linkedin: "https://www.linkedin.com/in/shaik-rahil-99533533b/"
     },
+    {
+      name: "Karthikeya",
+      domain: "Technical",
+      image: "/team/member20.jpg",
+      instagram: "https://instagram.com/username",
+      linkedin: "https://linkedin.com/in/username"
+    },
    
   ]
 

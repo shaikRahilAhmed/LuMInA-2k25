@@ -109,11 +109,11 @@ const EventsPage = () => {
   ]
 
   return (
-    <div className='min-h-screen px-6 py-20'>
+    <div className='mt-15 min-h-screen px-6 py-20'>
       <div className='max-w-7xl mx-auto'>
         
         {/* Page Header */}
-        <div className='mt-20 text-center mb-16'>
+        <div className='text-center mb-16'>
           <h1 className='text-4xl md:text-6xl font-bold mb-4'>
             <span className='bg-gradient-to-r from-red-400 via-pink-400 to-orange-400 bg-clip-text text-transparent'>
               Events Schedule
@@ -193,13 +193,17 @@ const EventsPage = () => {
                     </div>
 
                     {/* Register Button */}
-                    <button className='relative px-6 py-2.5 rounded-full overflow-hidden group/btn'>
-                      <span className='absolute inset-0 bg-gradient-to-r from-red-500 to-orange-500 transition-transform duration-300 group-hover/btn:scale-105'></span>
-                      <span className='absolute inset-0 bg-gradient-to-r from-red-400 to-orange-400 opacity-0 group-hover/btn:opacity-100 transition-opacity duration-300'></span>
-                      <span className='relative z-10 text-white font-semibold text-sm uppercase tracking-wider'>
-                        Register Now
-                      </span>
-                    </button>
+                    {event.name !== "Inaugural Ceremony" && 
+                     event.name !== "TechQuit - Round 2" && 
+                     event.name !== "Closing Ceremony" && (
+                      <button className='relative px-6 py-2.5 rounded-full overflow-hidden group/btn'>
+                        <span className='absolute inset-0 bg-gradient-to-r from-red-500 to-orange-500 transition-transform duration-300 group-hover/btn:scale-105'></span>
+                        <span className='absolute inset-0 bg-gradient-to-r from-red-400 to-orange-400 opacity-0 group-hover/btn:opacity-100 transition-opacity duration-300'></span>
+                        <span className='relative z-10 text-white font-semibold text-sm uppercase tracking-wider'>
+                          Register Now
+                        </span>
+                      </button>
+                    )}
                   </div>
                 </div>
               </div>
