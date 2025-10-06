@@ -12,12 +12,30 @@ const TeamPage = () => {
     {
       name: "Sushanth",
       domain: "Marketing Head",
-      image: "/team/member1.jpg",
+      image: "/sushanth.jpg",
       instagram: "https://instagram.com/username",
       linkedin: "https://linkedin.com/in/username"
     },
    
-   
+   // Technical
+    {
+      name: "Rahil",
+      domain: "Technical Head",
+      image: "/rahil.jpg",
+      instagram: "https://www.instagram.com/_shaik_rahil7_/?hl=en",
+      linkedin: "https://www.linkedin.com/in/shaik-rahil-99533533b/"
+    },
+
+    // Finance
+    
+    {
+      name: "Shanmukh",
+      domain: "Finance Head",
+      image: "/shanmukh.jpg",
+      instagram: "https://instagram.com/username",
+      linkedin: "https://linkedin.com/in/username"
+    },
+
     // Designing & Editing
     {
       name: "Divyamsh",
@@ -27,21 +45,13 @@ const TeamPage = () => {
       linkedin: "https://linkedin.com/in/username"
     },
  
-    // Finance
     
-    {
-      name: "Shanmukh",
-      domain: "Finance Head",
-      image: "/team/member8.jpg",
-      instagram: "https://instagram.com/username",
-      linkedin: "https://linkedin.com/in/username"
-    },
    
     // Photography
     {
       name: "Rushyanth",
       domain: "Photography Head",
-      image: "/team/member10.jpg",
+      image: "/rushyanth.jpg",
       instagram: "https://instagram.com/username",
       linkedin: "https://linkedin.com/in/username"
     },
@@ -49,7 +59,7 @@ const TeamPage = () => {
     {
       name: "Gangadhar",
       domain: "Event Planning Head",
-      image: "/team/member11.jpg",
+      image: "/gangadhar.jpg",
       instagram: "https://instagram.com/username",
       linkedin: "https://linkedin.com/in/username"
     },
@@ -60,7 +70,7 @@ const TeamPage = () => {
     {
       name: "Praneeth",
       domain: "Logistics Head",
-      image: "/team/member17.jpg",
+      image: "/praneeth.jpg",
       instagram: "https://instagram.com/username",
       linkedin: "https://linkedin.com/in/username"
     },
@@ -73,22 +83,7 @@ const TeamPage = () => {
       linkedin: "https://linkedin.com/in/username"
     },
 
-    // Technical
-    {
-      name: "Rahil",
-      domain: "Technical Head",
-      image: "/rahil.jpg",
-      instagram: "https://www.instagram.com/_shaik_rahil7_/?hl=en",
-      linkedin: "https://www.linkedin.com/in/shaik-rahil-99533533b/"
-    },
-    {
-      name: "Karthikeya",
-      domain: "Technical",
-      image: "/team/member20.jpg",
-      instagram: "https://instagram.com/username",
-      linkedin: "https://linkedin.com/in/username"
-    },
-   
+    
   ]
 
   return (

@@ -20,7 +20,7 @@ const TeamPage = () => {
     {
       name: "Manaswini",
       domain: "Marketing",
-      image: "/team/member3.jpg",
+      image: "/manaswini.jpg",
       instagram: "https://instagram.com/username",
       linkedin: "https://linkedin.com/in/username"
     },
@@ -44,7 +44,7 @@ const TeamPage = () => {
     {
       name: "Sameeksha",
       domain: "Finance",
-      image: "/team/member7.jpg",
+      image: "/sameeksha.jpg",
       instagram: "https://instagram.com/username",
       linkedin: "https://linkedin.com/in/username"
     },
@@ -52,7 +52,7 @@ const TeamPage = () => {
     {
       name: "Ruthika",
       domain: "Finance",
-      image: "/team/member9.jpg",
+      image: "/ruthika.jpg",
       instagram: "https://instagram.com/username",
       linkedin: "https://linkedin.com/in/username"
     },
@@ -63,21 +63,21 @@ const TeamPage = () => {
     {
       name: "Rahil",
       domain: "Event Planning",
-      image: "/team/member12.jpg",
+      image: "/rahil.jpg",
       instagram: "https://instagram.com/username",
       linkedin: "https://linkedin.com/in/username"
     },
     {
       name: "Tharuni Sai",
       domain: "Event Planning",
-      image: "/team/member13.jpg",
+      image: "/taruni.jpg",
       instagram: "https://instagram.com/username",
       linkedin: "https://linkedin.com/in/username"
     },
     {
       name: "Keerthi",
       domain: "Event Planning",
-      image: "/team/member14.jpg",
+      image: "/keerthi.jpg",
       instagram: "https://instagram.com/username",
       linkedin: "https://linkedin.com/in/username"
     },
@@ -85,14 +85,14 @@ const TeamPage = () => {
     {
       name: "Manish",
       domain: "Logistics",
-      image: "/team/member15.jpg",
+      image: "/manish.jpg",
       instagram: "https://instagram.com/username",
       linkedin: "https://linkedin.com/in/username"
     },
     {
       name: "Abhinay",
       domain: "Logistics",
-      image: "/team/member16.jpg",
+      image: "/abhinay.jpg",
       instagram: "https://instagram.com/username",
       linkedin: "https://linkedin.com/in/username"
     },
@@ -114,17 +114,19 @@ const TeamPage = () => {
       instagram: "https://instagram.com/username",
       linkedin: "https://linkedin.com/in/username"
     },
+
     {
       name: "Kaushik",
       domain: "Technical",
-      image: "/team/member21.jpg",
+      image: "/kaushik.jpg",
       instagram: "https://instagram.com/username",
       linkedin: "https://linkedin.com/in/username"
     },
+   
     {
       name: "Sai Kumar",
       domain: "Technical",
-      image: "/team/member22.jpg",
+      image: "/saiKumar.jpg",
       instagram: "https://instagram.com/username",
       linkedin: "https://linkedin.com/in/username"
     }
