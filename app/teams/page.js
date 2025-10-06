@@ -27,7 +27,7 @@ const TeamPage = () => {
     {
       name: "Sravani",
       domain: "Marketing",
-      image: "/team/member4.jpg",
+      image: "/sravani.jpg",
       instagram: "https://instagram.com/username",
       linkedin: "https://linkedin.com/in/username"
     },
@@ -36,7 +36,7 @@ const TeamPage = () => {
     {
       name: "Yash",
       domain: "Designing & Editing",
-      image: "/team/member6.jpg",
+      image: "/yash.jpg",
       instagram: "https://instagram.com/username",
       linkedin: "https://linkedin.com/in/username"
     },
@@ -56,7 +56,7 @@ const TeamPage = () => {
       instagram: "https://instagram.com/username",
       linkedin: "https://linkedin.com/in/username"
     },
-    // Photography
+    
     
     // Event Planning
   
@@ -102,7 +102,7 @@ const TeamPage = () => {
     {
       name: "Srihitha",
       domain: "Permission",
-      image: "/team/member19.jpg",
+      image: "/srihitha.jpg",
       instagram: "https://instagram.com/username",
       linkedin: "https://linkedin.com/in/username"
     },

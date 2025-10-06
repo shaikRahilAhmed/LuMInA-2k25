@@ -40,7 +40,7 @@ const TeamPage = () => {
     {
       name: "Divyamsh",
       domain: "Designing & Editing Head",
-      image: "/team/member5.jpg",
+      image: "/divyamsh.jpg",
       instagram: "https://instagram.com/username",
       linkedin: "https://linkedin.com/in/username"
     },
@@ -78,7 +78,7 @@ const TeamPage = () => {
     {
       name: "Saideep",
       domain: "Permission Head",
-      image: "/team/member18.jpg",
+      image: "/saideep.jpg",
       instagram: "https://instagram.com/username",
       linkedin: "https://linkedin.com/in/username"
     },
